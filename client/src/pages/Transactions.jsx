@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = `${import.meta.env.VITE_API_URL}/transactions`;
 
 const emptyForm = {
   title: "",
